@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: rgb(76, 76, 76);
+    width: 100%;
+    color: white;
+}
+
+.navitem{
+    padding-left: 20px;
+}
+
+.h2a{
+    color: white;
+}
+
+a{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+}
+
+.BannerSzeruValami{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+.banneritem{
+    padding: 10%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.nev{
+    font-weight: lighter;
+}
