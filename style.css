@@ -43,3 +43,28 @@ a{
 .nev{
     font-weight: lighter;
 }
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    font-size: large;
+    font-weight: 500;
+}
+
+mark{
+    font-weight: bold;
+    background-color: white;
+}
+
+.kepdiv{
+    text-align: center;
+    color: rgb(158, 158, 158);
+}
+
+.kepdiv, img{
+    height: 250px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
