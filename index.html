@@ -65,9 +65,9 @@
 
     <!-- szolgaltatasok -->
     <br>
-    <div class="container2">
+    <div id="szolgaltatasok" class="container2">
 
-        <div id="szolgaltatasok" class="item">
+        <div class="item">
             <div>
                 <img src="kepek/hotel_haloszoba_700_300.jpg" alt="Hotelünk egy Hálószobája">
             </div>
@@ -91,7 +91,8 @@
 
             <div>
                 <h2>Étterem</h2>
-                <p><mark>Kovács Sebastian</mark> mesterszakácsunk gondoskodik az a'lacarte éttermünk kínálatóról, a hotel étterem részlegén.</p>
+                <p><mark>Kovács Sebastian</mark> mesterszakácsunk gondoskodik az a'lacarte éttermünk kínálatóról, a
+                    hotel étterem részlegén.</p>
                 <p>Konferenciák, rendezvények lebonyolítását is vállaljuk!</p>
                 <button>Étlap megtekintése</button>
             </div>
@@ -106,7 +107,8 @@
             <div>
                 <h2>Téli sporteszköz kölcsönzés</h2>
                 <p>A hegyvidéken található számos sípályához biztosítunk kedvezményes áron sífelszerelést.</p>
-                <p>Amennyiben nálunk foglal, akár <mark>50%-os kedvezményre is jogosult lehet</mark> a bérlés árából! A részletekért érdeklődjön a recepciósunknál.</p>
+                <p>Amennyiben nálunk foglal, akár <mark>50%-os kedvezményre is jogosult lehet</mark> a bérlés árából! A
+                    részletekért érdeklődjön a recepciósunknál.</p>
                 <button type="button" onclick="location.href='#arlista'">Tovább az árlistára</button>
             </div>
         </div>
@@ -119,15 +121,17 @@
 
             <div>
                 <h2>Túravezetés</h2>
-                <p>A Kékhegy még a Mátránál is magasabb, 1337 méter magasan fekvő tája és bizonyítottan különlegesen jóminőségű hegyi levegője évtizedek óta méltán híres turistaparadicsom az egész évben. Vezetett gyalogtúráink egész évben rendelkezésre állnak.</p>
+                <p>A Kékhegy még a Mátránál is magasabb, 1337 méter magasan fekvő tája és bizonyítottan különlegesen
+                    jóminőségű hegyi levegője évtizedek óta méltán híres turistaparadicsom az egész évben. Vezetett
+                    gyalogtúráink egész évben rendelkezésre állnak.</p>
                 <button type="button" onclick="location.href='#arlista'">Tovább az árlistára</button>
             </div>
         </div>
     </div>
 
     <!-- arlista -->
-     <br>
-     <div id="arlista" class="arlistadiv">
+    <br>
+    <div id="arlista" class="arlistadiv">
         <div class="arlistadiv2">
             <div class="arlistaitem">
                 <p class="szobaszam">Kétfős szoba</p>
@@ -144,7 +148,7 @@
                 </ul>
                 <button class="masfelegomb">Foglalás</button>
             </div>
-    
+
             <div class="arlistaitem">
                 <p class="szobaszam">Négyszemélyes lakosztály</p>
                 <h1 class="ar">12.000 Ft<mark class="armark">/nap</mark></h1>
@@ -160,8 +164,8 @@
                 </ul>
                 <button class="masfelegomb">Foglalás</button>
             </div>
-    
-            <div class="arlistaitem">
+
+            <div id="araink" class="arlistaitem">
                 <p class="szobaszam">Hatszemélyes lakosztály $$</p>
                 <h1 class="ar">24.000 Ft<mark class="armark">/nap</mark></h1>
                 <hr>
@@ -176,10 +180,33 @@
                 </ul>
                 <button class="masfelegomb">Foglalás</button>
             </div>
-         </div>
         </div>
-        
+    </div>
 
+    <!-- arlista -->
+    <br>
+    <div id="kapcsolat" class="kapcsolatdiv">
+        <div class="kapcsolatitem">
+            <h2>Kérdezzen tőlünk élőben!</h2>
+            <form action="">
+                <label for="kerdes">Legutóbbi kérdés:</label>
+                <p id="utolsokerdes"></p>
+                <input id="kerdes" type="text" placeholder="Kérjük, írja be kérdését ide!">
+                
+                <button class="harmadikfelegomb" type="button" onclick="kerdesfunct()">Kérdés beküldése</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <br>
+    <footer>
+        <p>Kékhegy Szálló</p>
+        <p>9999 Mucsaröcsöge</p>
+        <p>Fő út 1.</p>
+        <p>Telefon: +36 55 555-5555</p>
+        <p>Email: <a href="">kapcsolat@kekhegyszallo.hu</a></p>
+    </footer>
     <script src="script.js"></script>
 </body>
 

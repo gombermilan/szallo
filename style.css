@@ -160,3 +160,47 @@ li{
     font-size: medium;
     font-weight: 100;
 }
+
+.kapcsolatdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76%;
+    margin: auto;
+    border: white, 5px solid;
+    padding: 2%;
+    background-image: url(kepek/hotel_kinti_700_300.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kapcsolatitem{
+    background-color: rgb(158, 158, 158, 0.7);
+    color: white;
+    padding: 0px 20px 10px 20px;
+    font-size: large;
+}
+
+input{
+    width: 98%;
+    border-radius: 10px;
+}
+
+#utolsokerdes{
+    width: 100%;
+    background-color: rgb(226, 202, 62);
+    height: 20px;
+}
+
+.harmadikfelegomb{
+    margin-top: 10px;
+    width: max-content;
+    background-color: rgb(5, 191, 243);
+}
+
+footer{
+    background-color: rgb(76, 76, 76);
+    color: rgb(158, 158, 158);
+    text-align: center;
+    padding: 2%;
+}
