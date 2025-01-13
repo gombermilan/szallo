@@ -58,6 +58,7 @@ a{
     width: 80%;
     margin: auto;
     justify-content: center;
+    align-items: center;
     font-size: large;
     font-weight: 500;
     flex-direction: column;
@@ -101,4 +102,61 @@ button{
     font-size: large;
     padding: 5px;
     border-radius: 5px;
+}
+
+.masfelegomb{
+    background-color: rgb(0, 153, 255, 0.8);
+    color: white;
+    width: 100%;
+    font-size: large;
+    padding: 10px;
+    border-radius: 20px; 
+}
+
+
+
+.arlistadiv{
+    background-image: linear-gradient(to right,rgb(0, 153, 255, 1), rgb(0, 153, 255, 0.5));
+    padding-top: 3%;
+    padding-bottom: 3%; 
+}
+
+.arlistadiv2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+    flex-direction: row;
+}
+
+.arlistaitem{
+    width: 28%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.szobaszam{
+    color: rgb(158, 158, 158);
+    font-weight: 1000;
+    text-align: center;
+    font-size: larger;
+    font-variant: small-caps;
+}
+
+.ar{
+    text-align: center;
+    font-weight: 100;
+}
+
+.armark{
+    font-size: medium;
+    font-weight: 100;
 }
